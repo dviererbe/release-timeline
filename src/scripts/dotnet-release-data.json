@@ -1,0 +1,91 @@
+{
+    "channels": [
+        {
+            "major": 8,
+            "minor": 0,
+            "support": {
+                "type": "LTS",
+                "endOfLife": "2026-11-10"
+            },
+            "releases": [
+                {
+                    "date": "2023-11-14",
+                    "runtime": {
+                        "patch": 0
+                    },
+                    "sdks": [
+                        {
+                            "featureBand": 100,
+                            "patch": 0
+                        }
+                    ],
+                    "notes": "https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.0/8.0.0.md"
+                },
+                {
+                    "date": "2024-01-09",
+                    "runtime": {
+                        "patch": 1
+                    },
+                    "sdks": [
+                        {
+                            "featureBand": 100,
+                            "patch": 1
+                        }
+                    ],
+                    "notes": "https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.1/8.0.1.md"
+                },
+                {
+                    "date": "2024-02-13",
+                    "runtime": {
+                        "patch": 2
+                    },
+                    "sdks": [
+                        {
+                            "featureBand": 100,
+                            "patch": 2,
+                            "notes": "https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.2/8.0.102.md"
+                        },
+                        {
+                            "featureBand": 200,
+                            "patch": 0
+                        }
+                    ],
+                    "notes": "https://github.com/dotnet/core/tree/main/release-notes/8.0/8.0.2/8.0.2.md"
+                },
+                {
+                    "date": "2024-02-15",
+                    "sdks": [
+                        {
+                            "featureBand": 200,
+                            "patch": 1,
+                            "notes": "https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.2/8.0.201.md"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "major": 7,
+            "minor": 0,
+            "support": {
+                "type": "STS",
+                "endOfLife": "2024-05-14"
+            },
+            "releases":[
+                {
+                    "date": "2022-11-08",
+                    "runtime": {
+                        "patch": 0
+                    },
+                    "sdks": [
+                        {
+                            "featureBand": 100,
+                            "patch": 0
+                        }
+                    ],
+                    "notes": "https://github.com/dotnet/core/blob/main/release-notes/7.0/7.0.0/7.0.0.md"
+                }
+            ]
+        }
+    ]
+}
